@@ -5,7 +5,7 @@ import vuePugPlugin from "vue-pug-plugin";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "SoftEng.github.io",
+  base: "/",
   server: {
     // vite server configs, for details see [vite doc](https://vitejs.dev/config/#server-host)
     port: 3000,
