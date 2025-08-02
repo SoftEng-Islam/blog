@@ -1,0 +1,18 @@
+{
+	"AppName": "DoFetcher",
+	"AppColor": "Purple",
+	"AppMode": "Dark",
+	"OS": {
+		"Name": "Arch",
+		"DisplayManager": "GDM",
+		"Environement": "Hyprland"
+	},
+	"WhenStartup": {
+		"ResumeAll": true,
+		"CheckUpdates": true,
+		"Torrent": {
+			"ResumeAllTorrents": true
+		}
+	},
+	"AfterFinishdAllDownloads": "shutdown"
+}
