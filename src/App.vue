@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HeaderApp from './components/HeaderApp.vue';
+// import header_app from './components/HeaderApp.vue';
 </script>
 
 <template lang="pug">
-  <HeaderApp/>
+  //- header_app
   <h1 class="bg-yellow-400 text-white">Hi 👋, I'm Islam Ahmed from vue app</h1>
   p A Software Engineer from Egypt.
   blockquote "The repositories here will never be complete; they will continue to grow as long as there’s imagination left in the world."
