@@ -1,4 +1,6 @@
+/* @import "tailwindcss/preflight"; */
 @import "tailwindcss";
+@tailwind utilities;
 
 /* @tailwind base; */
 
@@ -23,10 +25,6 @@
     @apply outline-none;
   }
 }
-
-/* @tailwind components;
-@tailwind utilities;
-@tailwind variants; */
 
 @font-face {
   font-family: JetBrains;
@@ -139,6 +137,8 @@
   /* Main Color */
   --light-fav-color: var(--L-gra);
   --dark-fav-color: var(--D-gra);
+
+  --paddingx: 2rem;
 }
 
 html {
